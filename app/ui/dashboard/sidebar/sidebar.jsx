@@ -6,6 +6,7 @@ import {
     MdAttachMoney,
     MdDashboard,
     MdHelpCenter,
+    MdLogout,
     MdOutlineSettings,
     MdPeople,
     MdShoppingBag,
@@ -97,6 +98,10 @@ const Sidebar = () => {
                 </li>
             ))}
         </ul>
+        <button className={styles.logout}>
+            <MdLogout />
+            Logout
+        </button>
     </div>
   )
 }
